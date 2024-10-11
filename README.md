@@ -11,7 +11,9 @@ This project explores the use of Cell Painting, a high-content image-based assay
 - Integrated chemical structure visualization using the ChemPub Restful API.  
 - [Project Proposal](https://youtu.be/wn6c_DhxlOo)    
 - [Presentation](https://youtu.be/J4o2ygYiUPQ)
-- [Poster](https://github.com/mekz-data/drug_discovery/blob/main/team093poster.pdf)
+- [Poster](https://github.com/mekz-data/drug_discovery/blob/main/team093poster.pdf)    
+    
+<img src = "https://github.com/mekz-data/drug_discovery/blob/main/images/structure.png" height="350">
 
 ## Code and Resources Used
 **Python Version:** 3.7  
@@ -28,11 +30,20 @@ This project explores the use of Cell Painting, a high-content image-based assay
 - **Clustering:** Methods such as K-Means, Birch, and DBSCAN were applied to group similar perturbations.
 - **ECFP:** Extended-Connectivity Fingerprints were used to characterize molecular structures.
 
+<img src = "https://github.com/mekz-data/drug_discovery/blob/main/images/viz2.png">
+
+
 ## Visualization
 - Built using Dash for interactivity, allowing users to select different combinations of dimension reduction techniques and clustering methods.
 - Visualized perturbations as dots on a scatter plot, with options to adjust methods via dropdowns.
 - Displayed metadata and compound structures using the ChemPub Restful API.
 - [Here's a brief demonstration.](https://youtu.be/TxNSQ6sGdgM?si=WDRbx3LQNWHFBXTL&t=43)
+
+<img src="https://github.com/mekz-data/drug_discovery/blob/main/images/viz.png" height="300">
+
+
+
+
 
 ## Experiments and Evaluation
 - **Feature Reduction:** PCA captured global structures, while t-SNE and UMAP preserved local and global structures, respectively.
